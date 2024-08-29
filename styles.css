@@ -1,0 +1,58 @@
+
+.left-align {
+  text-align: left;
+}
+
+.red .percent {
+  color: red;
+}
+
+.green .percent {
+  color: rgb(37, 127, 40);
+}
+
+.red {
+  background-color: #c35454ad;
+}
+
+.green {
+  background-color: #cde8a5;
+}
+
+.blue {
+  background-color: #8787d2;
+}
+
+tbody tr {
+  cursor: pointer;
+} 
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  background-color: #ab9d9d85
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #eddbdb;
+  cursor: pointer;
+}
+
+.percent {
+  font-weight: 700;
+}
+
+td[data-column="yesterday"]{
+  display: flex;
+  justify-content: space-around;
+}
