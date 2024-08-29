@@ -1,0 +1,62 @@
+[
+  {
+    "indicator": "Выручка",
+    "current_day": 10000,
+    "yesterday": "9000 +7%",
+    "week_day": 50000
+  },
+  {
+    "indicator": "Наличные",
+    "current_day": 3000,
+    "yesterday": "2500 -10%",
+    "week_day": 15000
+  },
+  {
+    "indicator": "Безналичный расчет",
+    "current_day": 5000,
+    "yesterday": "4500 +11%",
+    "week_day": 25000
+  },
+  {
+    "indicator": "Кредитные карты",
+    "current_day": 2000,
+    "yesterday": "2000 0%",
+    "week_day": 10000
+  },
+  {
+    "indicator": "Средний чек, руб.",
+    "current_day": 500,
+    "yesterday": "550 -9%",
+    "week_day": 600
+  },
+  {
+    "indicator": "Средний гость, руб.",
+    "current_day": 300,
+    "yesterday": "350 -15%",
+    "week_day": 400
+  },
+  {
+    "indicator": "Удаления из чека (после оплаты), руб.",
+    "current_day": 100,
+    "yesterday": "80 +25%",
+    "week_day": 90
+  },
+  {
+    "indicator": "Удаления из чека (до оплаты), руб.",
+    "current_day": 50,
+    "yesterday": "40 +25%",
+    "week_day": 30
+  },
+  {
+    "indicator": "Количество чеков",
+    "current_day": 20,
+    "yesterday": "18 +11%",
+    "week_day": 15
+  },
+  {
+    "indicator": "Количество гостей",
+    "current_day": 30,
+    "yesterday": "28 -7%",
+    "week_day": 25
+  }
+]
