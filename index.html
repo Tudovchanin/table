@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблица с графиком</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th class="left-align">Показатель</th>
+        <th class="blue">Текущий день</th>
+        <th>Вчера</th>
+        <th>Этот день недели</th>
+      </tr>
+    </thead>
+
+    <tbody id="table1">
+      <tr>
+        <th class="left-align">Выручка, руб</th>
+        <td data-column="current_day" class="blue" id="revenue-current-day"></td>
+        <td data-column="yesterday" id="revenue-yesterday"></td>
+        <td data-column="week_day" id="revenue-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Наличные</th>
+        <td data-column="current_day" class="blue" id="cash-current-day"></td>
+        <td data-column="yesterday" id="cash-yesterday"></td>
+        <td class="red" data-column="week_day" id="cash-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Безналичный расчет</th>
+        <td data-column="current_day" class="blue" id="cashless-current-day"></td>
+        <td data-column="yesterday" id="cashless-yesterday"></td>
+        <td data-column="week_day" id="cashless-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Кредитные карты</th>
+        <td data-column="current_day" class="blue" id="credit-cards-current-day"></td>
+        <td data-column="yesterday" id="credit-cards-yesterday"></td>
+        <td data-column="week_day" id="credit-cards-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Средний чек, руб</th>
+        <td data-column="current_day" class="blue" id="average-check-current-day"></td>
+        <td data-column="yesterday" id="average-check-yesterday"></td>
+        <td class="green" data-column="week_day" id="average-check-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Средний гость, руб</th>
+        <td data-column="current_day" class="blue" id="average-guest-current-day"></td>
+        <td data-column="yesterday" id="average-guest-yesterday"></td>
+        <td class="green" data-column="week_day" id="average-guest-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Удаления из чека (после оплаты), руб</th>
+        <td data-column="current_day" class="blue" id="removals-after-current-day"></td>
+        <td data-column="yesterday" id="removals-after-yesterday"></td>
+        <td class="green" data-column="week_day" id="removals-after-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Удаления из чека (до оплаты), руб</th>
+        <td data-column="current_day" class="blue" id="removals-before-current-day"></td>
+        <td data-column="yesterday" id="removals-before-yesterday"></td>
+        <td class="green" data-column="week_day" id="removals-before-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Количество чеков</th>
+        <td data-column="current_day" class="blue" id="check-count-current-day"></td>
+        <td data-column="yesterday" id="check-count-yesterday"></td>
+        <td  ata-column="week_day" id="check-count-week-day"></td>
+      </tr>
+      <tr>
+        <th class="left-align">Количество гостей</th>
+        <td data-column="current_day" class="blue" id="guest-count-current-day"></td>
+        <td data-column="yesterday" id="guest-count-yesterday"></td>
+        <td class="green" data-column="week_day" id="guest-count-week-day"></td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
